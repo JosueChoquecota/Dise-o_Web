@@ -4,8 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+      }
+    </style>
 </head>
+
 <body>
-    
+  <header class="border-b border-blue-400">
+    <div class="max-w-7xl mx-auto flex items-center justify-between px-4 py-3">
+      <!-- Logo -->
+      <a href="../../index.html">
+        <div class="flex items-center space-x-2">
+          <div aria-hidden="true" class="w-6 h-6 rounded-full bg-gray-400"></div>
+          <span class="font-extrabold text-black text-lg select-none">Ecommerce</span>
+        </div>
+      </a>
+  
+      <!-- Menú + Carrito -->
+      <div class="flex items-center space-x-[50px]">
+        <nav class="hidden sm:flex items-center space-x-[50px] text-xs text-black">
+          <a href="../../index.html" class="hover:underline">Inicio</a>
+          <a href="#" class="hover:underline">Productos</a>
+          <a href="#" class="hover:underline">Contacto</a>
+          <a href="#" class="hover:underline">Nosotros</a>
+        </nav>
+  
+        <!-- Carrito -->
+        <button aria-label="Carrito de compras" class="text-black text-lg sm:text-xl">
+          <i class="fas fa-shopping-cart"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+  
+  
 </body>
 </html>

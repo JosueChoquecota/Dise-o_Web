@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+    <div id="header"></div>
+
+    <div class="max-w-[1200px] mx-auto px-4 py-10">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <!-- Imagen -->
+          <div>
+            <img src="https://storage.googleapis.com/a1aa/image/e2b7047e-8c6b-4d54-b21b-c5ff7fe3dc35.jpg" alt="Producto" class="w-full h-auto rounded" />
+          </div>
+          <!-- Info -->
+          <div>
+            <h1 class="text-2xl font-bold mb-2">Nombre del producto</h1>
+            <p class="text-gray-600 mb-4">Descripción larga del producto...</p>
+            <p class="text-green-700 text-xl font-bold mb-2">S/. 16.00</p>
+            <p class="text-sm text-gray-500 mb-4">Stock: 7 unidades</p>
+            <button class="bg-green-700 text-white px-4 py-2 rounded hover:bg-green-800">
+              Agregar al carrito
+            </button>
+          </div>
+        </div>
+      </div>
+      <div id="footer"></div>
+      <script src="../../js/main.js"></script>
+
+</body>
+</html>
